@@ -14,6 +14,8 @@ In Windows, copy the DLLs "libeay32.dll" and "ssleay32.dll" from "xmailer\3rdpar
 
 In Linux, install the libs of OpenSSL(*) projetct, and try run the demo again.
 
+You may need to install libssl-dev for Linux support as well.
+
 (*)
   OpenSSL in openSUSE:
     # zypper in libopenssl-devel 
