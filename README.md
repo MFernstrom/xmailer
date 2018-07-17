@@ -1,14 +1,10 @@
-# NOTICE
-
-X-Mailer plugin
-===============
+## X-Mailer plugin
 
 This plugin offers a really simple way to send e-mails using Free Pascal.
 For those who like the procedural style, X-Mailer has the SendMail procedure. With one single line, you can configure SMTP settings and fill all the required fields as: From, To, CC, Subject and Message.
 For those who prefer an Object Oriented style, X-Mailer has the TSendMail class with the same above mentioned characteristics.
 
-Steps to run the demos with SSL support
-=======================================
+## Steps to run the demos with SSL support
 
 In Windows, copy the DLLs "libeay32.dll" and "ssleay32.dll" from "xmailer\3rdparty\openssl\win32" to this folder, and try run the demo again.
 
@@ -16,19 +12,14 @@ In Linux, install the libs of OpenSSL(*) projetct, and try run the demo again.
 
 You may need to install libssl-dev for Linux support as well.
 
-(*)
-  OpenSSL in openSUSE:
-    # zypper in libopenssl-devel 
-
-  OpenSSL in Mint:
-    $ sudo apt-get install libssl-dev
-
-  OpenSSL in Fedora:
-    $ su
-    # cd /usr/lib
-    # ln -s libcrypto.so.1.0.0 libcrypto.so
-    # ln -s libssl.so.1.0.0 libssl.so
+* OpenSSL in openSUSE: zypper in libopenssl-devel 
+* OpenSSL in Mint: $ sudo apt-get install libssl-dev
+* OpenSSL in Fedora:
+    * $ su
+    * $ cd /usr/lib
+    * $ ln -s libcrypto.so.1.0.0 libcrypto.so
+    * $ ln -s libssl.so.1.0.0 libssl.so
 
 Enjoy!
 
-Xmailer was created by Silvio Clecio (silvioprog), he's deleting it from his repos, so I made a copy.
+**Xmailer was created by Silvio Clecio (silvioprog), he's deleting it from his repos, so I made a copy.**
